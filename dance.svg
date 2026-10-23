@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- original mascot: a small headphone spirit that dances -->
+
+  <!-- shadow -->
+  <ellipse cx="100" cy="196" rx="34" ry="6" fill="#000" opacity="0.25">
+    <animate attributeName="rx" values="34;26;34" dur="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.25;0.15;0.25" dur="0.6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- sound bars -->
+  <g fill="#A78BFA">
+    <rect x="22" y="150" width="6" height="30" rx="3" transform="translate(0 30) scale(1 -1) translate(0 -180)">
+      <animate attributeName="height" values="10;34;14;28;10" dur="0.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="34" y="150" width="6" height="30" rx="3" opacity="0.8" transform="translate(0 30) scale(1 -1) translate(0 -180)">
+      <animate attributeName="height" values="28;12;34;16;28" dur="0.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="160" y="150" width="6" height="30" rx="3" opacity="0.8" transform="translate(0 30) scale(1 -1) translate(0 -180)">
+      <animate attributeName="height" values="14;32;10;30;14" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="172" y="150" width="6" height="30" rx="3" transform="translate(0 30) scale(1 -1) translate(0 -180)">
+      <animate attributeName="height" values="30;10;26;12;30" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#F9A8D4">
+    <circle cx="50" cy="90" r="2.5">
+      <animate attributeName="cy" values="110;50" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="152" cy="80" r="2">
+      <animate attributeName="cy" values="100;40" dur="2.2s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.2s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="40" r="2">
+      <animate attributeName="cy" values="60;10" dur="2s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- character: sway -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-5 100 185;5 100 185;-5 100 185" dur="1.2s" repeatCount="indefinite"/>
+    <!-- bounce -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="0.6s" repeatCount="indefinite"/>
+
+      <!-- arms -->
+      <g stroke="#A78BFA" stroke-width="3" fill="#E9E5FF">
+        <ellipse cx="56" cy="138" rx="7" ry="13">
+          <animateTransform attributeName="transform" type="rotate" values="-35 62 128;35 62 128;-35 62 128" dur="0.6s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="144" cy="138" rx="7" ry="13">
+          <animateTransform attributeName="transform" type="rotate" values="35 138 128;-35 138 128;35 138 128" dur="0.6s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+
+      <!-- body -->
+      <path d="M60 118 C60 66 140 66 140 118 L140 172 Q130 160 120 172 Q110 184 100 172 Q90 160 80 172 Q70 184 60 172 Z"
+            fill="#E9E5FF" stroke="#A78BFA" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- headphones -->
+      <path d="M62 110 C62 60 138 60 138 110" fill="none" stroke="#A78BFA" stroke-width="6" stroke-linecap="round"/>
+      <rect x="52" y="100" width="14" height="26" rx="6" fill="#7C5CE0"/>
+      <rect x="134" y="100" width="14" height="26" rx="6" fill="#7C5CE0"/>
+
+      <!-- face -->
+      <path d="M80 114 q6 -9 12 0" fill="none" stroke="#1B1530" stroke-width="3" stroke-linecap="round"/>
+      <path d="M108 114 q6 -9 12 0" fill="none" stroke="#1B1530" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="76" cy="126" r="5" fill="#F9A8D4" opacity="0.65"/>
+      <circle cx="124" cy="126" r="5" fill="#F9A8D4" opacity="0.65"/>
+      <ellipse cx="100" cy="128" rx="4" ry="3">
+        <animate attributeName="ry" values="2;5;2" dur="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="fill" values="#1B1530;#1B1530" dur="0.6s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+  </g>
+</svg>
