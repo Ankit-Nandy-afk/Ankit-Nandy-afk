@@ -2,7 +2,7 @@
 
  
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=%E2%9C%A8+ANKIT+NANDY+%E2%9C%A8;Open-Source+Systems+Architect;Crafting+Rust+%26+Linux+Tooling" alt="Celestial Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=ANKIT+NANDY;Open-Source+Systems+Architect;Crafting+Rust+%26+Linux+Tooling" alt="Celestial Typing Header" />
   </a>
 
   <br />
