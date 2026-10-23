@@ -1,4 +1,4 @@
-<img align="right" src="assets/dance.svg" width="130" alt="">
+<img align="right" src="dance.svg" width="130" alt="">
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1200&color=A78BFA&center=true&vCenter=true&width=520&height=50&lines=ankit+nandy;writes+rust+for+linux;breaks+things+to+secure+them" alt="ankit nandy" />
