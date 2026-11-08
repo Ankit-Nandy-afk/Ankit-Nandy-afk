@@ -35,7 +35,6 @@ ankit@arch:~$ _
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankit-Nandy-afk&show_icons=true&theme=transparent&hide_border=true&title_color=A78BFA&icon_color=7C5CE0&text_color=c9d1d9&bg_color=0d1117" height="150" alt="stats" />
 
 <br><br>
 
